@@ -1,10 +1,6 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
-import 'package:notes_app/models/note.dart';
 import 'package:notes_app/theme/theme_provider.dart';
 import 'package:provider/provider.dart';
-
 import 'models/note_database.dart';
 import 'pages/notes_page.dart';
 
