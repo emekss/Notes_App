@@ -194,10 +194,22 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "google_fonts",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/google_fonts-6.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "graphs",
       "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/graphs-2.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/http-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "http_multi_server",
@@ -536,7 +548,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-04-27T05:00:28.871296Z",
+  "generated": "2024-04-28T15:50:06.396560Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }
