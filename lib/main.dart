@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/notespage.dart';
+import 'pages/notes_page.dart';
 
 void main() {
   runApp(const MyApp());
