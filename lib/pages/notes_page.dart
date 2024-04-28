@@ -1,5 +1,3 @@
-import 'dart:js_interop';
-
 import 'package:flutter/material.dart';
 import 'package:notes_app/models/note_database.dart';
 import 'package:provider/provider.dart';
