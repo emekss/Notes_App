@@ -386,6 +386,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "popover",
+      "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/popover-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "provider",
       "rootUri": "file:///Users/admin/.pub-cache/hosted/pub.dev/provider-6.1.2",
       "packageUri": "lib/",
@@ -548,7 +554,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-04-28T15:50:06.396560Z",
+  "generated": "2024-04-29T10:35:54.281354Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

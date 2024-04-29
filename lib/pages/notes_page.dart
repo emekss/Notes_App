@@ -31,7 +31,14 @@ class _NotesPageState extends State<NotesPage> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Add New Note'),
+        backgroundColor: Theme.of(context).colorScheme.background,
+        title: Text(
+          'Add New Note',
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.inversePrimary,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         content: TextField(
           controller: textController,
         ),
@@ -47,7 +54,13 @@ class _NotesPageState extends State<NotesPage> {
               // pop dialog box
               Navigator.pop(context);
             },
-            child: const Text('Create'),
+            child: Text(
+              'Create',
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.inversePrimary,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
           )
         ],
       ),
@@ -66,7 +79,14 @@ class _NotesPageState extends State<NotesPage> {
     showDialog(
         context: context,
         builder: (context) => AlertDialog(
-              title: const Text('Update Note'),
+              backgroundColor: Theme.of(context).colorScheme.background,
+              title: Text(
+                'Update Note',
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.inversePrimary,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               content: TextField(
                 controller: textController,
               ),
@@ -82,7 +102,13 @@ class _NotesPageState extends State<NotesPage> {
                     // pop dialog box
                     Navigator.pop(context);
                   },
-                  child: const Text('Update'),
+                  child: Text(
+                    'Update',
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.inversePrimary,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
                 ),
               ],
             ));
@@ -111,7 +137,10 @@ class _NotesPageState extends State<NotesPage> {
       backgroundColor: Theme.of(context).colorScheme.background,
       floatingActionButton: FloatingActionButton(
         onPressed: createNote,
-        child: const Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          color: Theme.of(context).colorScheme.inversePrimary,
+        ),
       ),
       drawer: const MyDrawer(),
       body: Column(
