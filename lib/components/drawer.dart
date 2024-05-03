@@ -12,8 +12,8 @@ class MyDrawer extends StatelessWidget {
       child: Column(
         children: [
           //header
-          const DrawerHeader(child: Icon(Icons.note)),
-
+          const DrawerHeader(child: Icon(Icons.mode_edit_outline_rounded)),
+          const SizedBox(height: 25),
           //notes title
           DrawerTile(
             leading: const Icon(Icons.home),
