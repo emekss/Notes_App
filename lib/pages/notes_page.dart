@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:notes_app/components/drawer.dart';
 import 'package:notes_app/components/note_tile.dart';

@@ -41,8 +41,8 @@ class NoteTile extends StatelessWidget {
                 height: 100,
                 context: context,
                 bodyBuilder: (context) => NoteSettings(
-                  onEditTap: () => onEditPressed,
-                  onDeleteTap: () => onDeletePressed,
+                  onEditTap: onEditPressed,
+                  onDeleteTap: onDeletePressed,
                 ),
               ),
             ),
