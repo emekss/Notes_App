@@ -28,7 +28,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/yourusername/notes_app.git
+git clone https://github.com/emekss/notes_app.git
 cd notes_app
 
 Install dependencies:
